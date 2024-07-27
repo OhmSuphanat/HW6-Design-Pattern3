@@ -1,0 +1,11 @@
+/**6510450976
+ *Suphanat Sroyphet
+ */
+package org.example;
+
+public abstract class AbstractDuckFactory {
+    public abstract Quackable createMallardDuck();
+    public abstract Quackable createRedheadDuck();
+    public abstract Quackable createDuckCall();
+    public abstract Quackable createRubberDuck();
+}
